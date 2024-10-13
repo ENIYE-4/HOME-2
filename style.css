@@ -1,0 +1,38 @@
+
+.form-worker {
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 0.4cm;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+.form-worker thead tr {
+  background-color: rgb(2, 39, 39);
+  color: antiquewhite;
+  text-align: left;
+  font-weight: bold;
+}
+
+.form-worker th
+.form-worker td{
+padding: 12px 15px ;
+}
+
+.form-worker tbody tr {
+         border-bottom: 1px solid #dddddd;
+}
+
+.form-worker tbody tr:nth-of-type(even) {
+background-color: #f3f3f3 ;
+}
+
+.form-worker tbody tr:last-of-type {
+                 border-bottom: 2px solid green;
+}
+
+
+.form-worker table {
+  text-align: center;
+}
